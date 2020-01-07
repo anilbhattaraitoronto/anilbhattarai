@@ -1,0 +1,169 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    --themeGreen: rgb(10, 128, 10);
+    --themeBlack: rgb(22, 29, 23);
+    --themeWhite: rgb(231, 240, 230);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    background: var(--themeWhite, white);
+}
+
+button, input{
+    all: unset;
+}
+
+#app-wrapper{
+    background: var(--themeGreen);
+    position: relative;
+}
+#main-header{
+    position: relative;
+}
+#masthead{
+    text-align: center;
+    color: rgb(255, 115, 0);
+    cursor: pointer;
+    transition: 300ms all;
+    padding: 10px 0;
+}
+#masthead:hover{
+    color: darkorange;
+}
+#masthead::after{
+    content: "Learning To Code: One Line At A Time";
+    display: block;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--themeBlack, black);
+}
+#main-nav{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(90px, 1fr));
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 1px;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    background: var(--themeGreen);
+}
+#main-nav > .main-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    background: var(--themeWhite, white);
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+.main-link:hover, .main-link.active{
+    color: var(--themeGreen, green)
+}
+
+/* Content styling below*/
+
+#content{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+}
+#page-nav-container{
+    position: relative;
+}
+#page-nav{
+    cursor: pointer;
+    transform: scale(1);
+    transition: 800ms all;
+}
+#page-nav-menu-show{
+    display: inline-block;
+    padding-right: 13px;
+    transition: 400ms all;
+    font-size: 20px;
+    color: var(--themeWhite, white);
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    left: 5px;
+}
+#page-nav-menu-hide{
+    color: var(--themeGreen, green);
+    padding-right: 13px;
+}
+
+#page-nav{
+    width: 150px;
+    background: var(--themeWhite, white);
+    transition: 800ms all;
+    padding: 8px;
+}
+
+#page-nav-menu-show:hover, #page-nav-menu-hide:hover{
+    color: darkorange;
+}
+
+.page-nav-link{
+    list-style: none;
+    padding: 8px 0;
+}
+.page-nav-link:hover{
+    color: var(--themeGreen, green);
+}
+
+.main-page{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    transition: 500ms all;
+}
+
+#landing img{
+    display: block;
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    margin: 10px auto;
+    opacity: 1;
+    transition: 400ms all;
+    cursor: pointer;
+}
+
+#landing img:hover{
+    opacity: .8;
+}
+
+footer{
+    text-align: center;
+    opacity: .8;
+    padding: 10px 0;
+    color: var(--themeBlack, black);
+}
+@media (min-width: 700px){
+    #content{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+    }
+    #page-nav-menu-show, #page-nav-menu-hide{
+        display: none;
+    }
+}
+@media (max-width: 700px){
+    #content{
+        display: grid;
+        grid-template-columns: 20px 1fr;
+    }
+    #page-nav{
+        transform: scale(0);
+    }
+    #page-nav.show-hide{
+        transform: scale(1);
+    }
+}
+
