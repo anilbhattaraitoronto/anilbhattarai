@@ -24,8 +24,8 @@ export let projectPosts = [
         content: `<p>This is another ecommerce site I am building from the ground up for a small company based in the Greater Toronto Area. The functionality includes display of products, adding products to carts, adjusting quantities in cart, removing items from the cart and processing the checkout through third-party payment systems such as Stripe.</p>`
     },
     {
-        title: 'Fifth ProjectPost',
+        title: 'Learn Nepali',
         date: 'Janusry 6 2010',
-        content: `<p>This is my first post. Please let me know how you find it</p>`
+        content: `<p>Learn Nepali is a full-fledged web app for learning Nepali language. For now, <a href="https://nepali.netlify.com" target=_blank>Learn Nepali</a> has contents for learning letters (vowels, roots and compounds). it also has some brief descriptions of each of the modules. Over time, I plan to add new contents for learning words, sentences and eventually for practicing readings.</p>`
     },
 ]
