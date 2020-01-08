@@ -100,7 +100,7 @@ button, input{
 }
 
 #page-nav{
-    width: 180px;
+    width: 150px;
     height: 100%;
     background: var(--themeGreen, white);
     transition: 800ms all;
