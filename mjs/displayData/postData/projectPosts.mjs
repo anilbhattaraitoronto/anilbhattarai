@@ -6,7 +6,7 @@ export let projectPosts = [
         <a href="https://vowel.netlify.com" target = _blank>
         <img src=${'/images/vowelGame.png'}>
         </a>
-        <p>I have made several games for learning Nepali language. Nepali is my first language. This game is a part of a collection of apps that I have made for learning Nepali. For instance, this  <a href="https://nepali.netlify.com" target=_blank>Learn Nepali </a> is a larger app teaching you letters, words and sentences.</p>`
+        <p>I have made several games for learning Nepali language. Nepali is my first language. This game is a part of a collection of apps that I have made for learning Nepali. For instance, <a href="https://nepali.netlify.com" target=_blank><img src="/images/learn_nepali.png" alt ="Learn Nepali Game"> Learn Nepali </a> is a larger app teaching you letters, words and sentences. </p>`
     },
     {
         title: 'Nepal Reviewed',
@@ -26,6 +26,6 @@ export let projectPosts = [
     {
         title: 'Learn Nepali',
         date: 'Janusry 6 2010',
-        content: `<p>Learn Nepali is a full-fledged web app for learning Nepali language. For now, <a href="https://nepali.netlify.com" target=_blank>Learn Nepali</a> has contents for learning letters (vowels, roots and compounds). it also has some brief descriptions of each of the modules. Over time, I plan to add new contents for learning words, sentences and eventually for practicing readings.</p>`
+        content: `<p><img src="/images/learn_nepali.png" alt ="Learn Nepali Game">Learn Nepali is a full-fledged web app for learning Nepali language. For now, <a href="https://nepali.netlify.com" target=_blank>Learn Nepali</a> has contents for learning letters (vowels, roots and compounds). it also has some brief descriptions of each of the modules. Over time, I plan to add new contents for learning words, sentences and eventually for practicing readings.</p>`
     },
 ]
