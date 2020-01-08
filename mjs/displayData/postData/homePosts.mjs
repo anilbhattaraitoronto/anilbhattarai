@@ -2,7 +2,9 @@ export let homePosts = [
     {
         title: 'Welcome',
         date: 'Janusry 6 2010',
-        content: `<p>Welcome to CodingYatra!</p>`
+        content: `
+        <img src="/images/anilpic1.jpg" alt="Anil Bhattarai" title ="Anil Bhattarai">
+        <p>Welcome to CodingYatra!</p>`
     },
     {
         title: 'Second HomePost',

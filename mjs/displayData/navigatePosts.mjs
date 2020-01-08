@@ -5,6 +5,7 @@ export function navigatePosts(navId, containerId, itemIndex) {
     nav.addEventListener('click', (event) => {
         let targetItem = event.target
         let links = Array.from(nav.children)
+        links.forEach(link => link.classList.remove('active'))
         let targetIndex = links.indexOf(targetItem)
 
         if (targetIndex !== -1) {
