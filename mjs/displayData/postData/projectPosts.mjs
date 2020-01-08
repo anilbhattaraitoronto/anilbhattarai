@@ -6,7 +6,8 @@ export let projectPosts = [
         <a href="https://vowel.netlify.com" target = _blank>
         <img src=${'/images/vowelGame.png'}>
         </a>
-        <p>I have made several games for learning Nepali language. Nepali is my first language. This game is a part of a collection of apps that I have made for learning Nepali. For instance, <a href="https://nepali.netlify.com" target=_blank><img src="/images/learn_nepali.png" alt ="Learn Nepali Game"> Learn Nepali </a> is a larger app teaching you letters, words and sentences. </p>`
+        <p>I have made several games for learning Nepali language. Nepali is my first language. This game is a part of a collection of apps that I have made for learning Nepali.</p>
+        <p>For instance, <a href="https://nepali.netlify.com" target=_blank><img src="/images/learn_nepali.png" alt ="Learn Nepali Game"> Learn Nepali </a> is a larger app teaching you letters, words and sentences. </p>`
     },
     {
         title: 'Nepal Reviewed',
