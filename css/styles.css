@@ -32,20 +32,33 @@ p{
 #masthead{
     text-align: center;
     color: var(--themeWhite, white);
-    font-size: 2.5em;
+    font-size: 32px;
     cursor: pointer;
     transition: 300ms all;
     padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #masthead:hover{
     color: var(--themeBlack, black);
 }
-#masthead::after{
+#masthead span::after{
     content: "Journey To Code: One Line At A Time";
     display: block;
     font-size: 11px;
     font-style: italic;
     color: var(--themeBlack, black);
+    margin-top: -4px;
+}
+#masthead span{
+    margin-top: 16px;
+}
+#masthead img{
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: 8px;
+    margin-right: 10px;
 }
 #main-nav{
     display: grid;

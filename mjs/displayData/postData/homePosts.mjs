@@ -6,7 +6,7 @@ export let homePosts = [
         <img src="/images/anilpic1.jpg" alt="Anil Bhattarai" title ="Anil Bhattarai">
         <p>Welcome to CodingYatra!</p>
         <p>
-        This site chronicles an almost unlikely journey I undertook around mid-2016. That time, I started developing an intensive interest in computer programming. By then I had been using computer over two and half decades. In the past, especially in the late 1990s, I thought I was going to learn website building, but it did not happenbundleRenderer.renderToStream
+        This site chronicles an almost unlikely journey I undertook around mid-2016. That time, I started developing an intensive interest in computer programming. By then I had been using computer over two and half decades. In the past, especially in the late 1990s, I thought I was going to learn website building, but it did not happen.
         </p>
         <h4>Delhi-bound</h4>
         <p>
