@@ -170,10 +170,13 @@ p{
 .post-title{
     padding: 4px 0;
     font-size: 24px;
+    color: var(--themeWhite, white);
+    opacity: .9;
 }
 .post-date{
     font-size: 14px;
     font-style: italic;
+    color: var(--themeWhite, white);
     opacity: .7;
 }
 .post-content{
