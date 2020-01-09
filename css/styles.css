@@ -91,15 +91,16 @@ p{
 }
 #page-nav-menu-show, #page-nav-menu-hide{
     display: inline-block;
-    padding: 1px;
+    padding: 4px;
     transition: 400ms all;
     font-size: 20px;
-    color: var(--themeWhite, white);
+    color: var(--themeBlack, white);
     cursor: pointer;
     position: absolute;
-    top: 8px;
-    left: 5px;
-    border: 1px solid lightgreen;
+    top: 0px;
+    left:0;
+    /* border-bottom: 1px solid lightgreen; */
+    box-shadow: 0 0 1px lightgreen;
     text-align: center;
 }
 
@@ -116,7 +117,7 @@ p{
 #page-nav h4{
     text-align: right;
     padding: 0 8px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #page-nav-menu-show:hover, #page-nav-menu-hide:hover{
@@ -141,7 +142,7 @@ p{
 .main-page{
     width: 100%;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     transition: 500ms all;
 }
 .post{
@@ -150,11 +151,11 @@ p{
     max-width: 800px;
     /* margin: auto; */
     padding: 0 4px;
-    background: white;
+    /* background: white; */
     border-radius: 2px;
 }
 .post-title{
-    padding: 8px 0;
+    padding: 4px 0;
     font-size: 24px;
 }
 .post-date{
@@ -194,7 +195,17 @@ footer{
 @media (max-width: 700px){
     #content{
         display: grid;
-        grid-template-columns: 30px 1fr;
+        grid-template-columns: 1fr;
+        position: relative
+    }
+    #page-nav-container{
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 12;
+    }
+    .post{
+        margin-top: 30px;
     }
     #page-nav{
         transform: scale(0);
