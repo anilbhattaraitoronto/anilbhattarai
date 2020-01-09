@@ -11,6 +11,7 @@ export function sideBarShowHide() {
     hideButton.addEventListener('click', () => {
         sideBar.classList.toggle('show-hide')
     })
+
     pageNavLinks.forEach(link => {
         link.addEventListener('click', () => {
             sideBar.classList.toggle('show-hide')

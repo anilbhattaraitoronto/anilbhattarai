@@ -18,8 +18,8 @@ function loadApp(mastheadId) {
     })
 
     getCopyRightYear('copy-right-year')
+
     displaySection('main-page', 'main-link', 'active', 0)
-    navigateSections('main-nav', 'main-page', 'main-link', 'active')
 
     //render page nav titles
 
@@ -27,6 +27,9 @@ function loadApp(mastheadId) {
     renderTitles('lang-nav', posts, 1)
     renderTitles('project-nav', posts, 2)
     renderTitles('blog-nav', posts, 3)
+
+
+
 
     // displayPosts('landing-content', 0, 0)
 
@@ -37,5 +40,7 @@ function loadApp(mastheadId) {
     navigatePosts('blog-nav', 'blogs-content', 3)
 
     sideBarShowHide()
+
+    navigateSections('main-nav', 'main-page', 'main-link', 'active')
 }
 

@@ -4,4 +4,5 @@ export function renderTitles(navId, item, index = 0) {
     titles.forEach(title => {
         nav.innerHTML += title
     })
+    nav.children[0].classList.add('active')
 }

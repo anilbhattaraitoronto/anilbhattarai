@@ -26,6 +26,8 @@ export function displaySection(sectionClass, linkClass, activeClass, index = 0) 
 
 
     pageTitleContainer.innerHTML = pageTitles[index]
+
+
     displayPosts('landing-content', 0, 0)
     displayPosts('languages-content', 1, 0)
     displayPosts('projects-content', 2, 0)
